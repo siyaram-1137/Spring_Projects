@@ -20,7 +20,7 @@ public class EmployeeController {
 	@Autowired
 	EmpService es;
 	
-	//EmpService es;EmpService es;EmpService es;
+	
 
 	@RequestMapping("/addUser")
 	public String addUser(@ModelAttribute Employee e, Model m, HttpSession session) {
